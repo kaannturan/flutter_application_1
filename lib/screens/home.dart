@@ -12,7 +12,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   late LocationHelper locationData;
-  // Mesela buraya bir şeyler ekledin diyelim ve değişikliği kaydettin
 
 // home sayfasında konum alma
   Future<void> getLocationData() async {
